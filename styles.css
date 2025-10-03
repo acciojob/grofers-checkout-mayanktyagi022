@@ -1,2 +1,19 @@
-
 /* Your CSS Code here. */
+    table {
+      width: 50%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    .total-row td {
+      font-weight: bold;
+      text-align: right;
+      background-color: #f0f0f0;
+    }
+  
